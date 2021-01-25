@@ -4,11 +4,10 @@
 
 Tabela de conteúdos
 =================
-<!--ts-->
-    * [Tabela de Conteudo](https://github.com/P3terD/GameBot/tree/master#tabela-de-conte%C3%BAdos)
-    * [Features](https://github.com/P3terD/GameBot/tree/master#%EF%B8%8F-features)
-    * [Tecnologias](https://github.com/P3terD/GameBot/tree/master#-tecnologias)
-<!--te-->
+
+* [Tabela de Conteudo](https://github.com/P3terD/GameBot/tree/master#tabela-de-conte%C3%BAdos)
+* [Features](https://github.com/P3terD/GameBot/tree/master#%EF%B8%8F-features)
+* [Tecnologias](https://github.com/P3terD/GameBot/tree/master#-tecnologias)
 
 #### 🚧 Em construção 🚧 
 
