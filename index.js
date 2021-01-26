@@ -14,6 +14,7 @@ for (const file of commandFiles) {
 
 client.once("ready", () =>{
     console.log('Ready!');
+    client.user.setActivity(";help", { type:"LISTENING" });
 });
 
 client.on('message', msg => {
