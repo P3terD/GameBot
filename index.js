@@ -1,6 +1,7 @@
 const fs = require('fs');
 const Discord = require("discord.js");
 const { prefix, token } = require("./config.json");
+const mongo = require('./mongo');
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -12,9 +13,17 @@ for (const file of commandFiles) {
     client.commands.set(command.name, command);
 }
 
-client.once("ready", () =>{
+client.once("ready", async () =>{
     console.log('Ready!');
     client.user.setActivity(";help", { type:"LISTENING" });
+
+    await mongo().then(mongoose => {
+        try {
+            console.log('Connected to mongo!')
+        } finally {
+            mongoose.connection.close()
+        }
+    })
 });
 
 client.on('message', msg => {
