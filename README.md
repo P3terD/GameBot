@@ -14,7 +14,7 @@ Tabela de conteúdos
 ### ⚒️ Features
 
 - [x] Comando help
-- [ ] Sistema de Currency
+- [x] Sistema de Currency
 - [ ] Minigames
 
 ### 🔗 Tecnologias 
@@ -23,3 +23,4 @@ As seguintes tecnologias foram usadas na construção do projeto:
 
 - [Discord.js](https://discord.js.org/#/)
 - [Node.js](https://nodejs.org/en/)
+- [mongoose](https://mongoosejs.com/)
